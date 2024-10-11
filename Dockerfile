@@ -2,8 +2,6 @@ FROM python:3
 
 WORKDIR /data
 
-USER jenkins
-
 RUN pip install django==5.1.2
 
 COPY . .
